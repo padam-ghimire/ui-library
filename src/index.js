@@ -2,6 +2,12 @@ import Tooltip from './ui/tooltip';
 
 
 
-const tooltip = new Tooltip(document.querySelector('.tooltip'));
+const tooltips = document.querySelectorAll('.tooltip');
 
-tooltip.init();
+tooltips.forEach(element => {
+    const tooltip = new Tooltip(element);
+    tooltip.init();
+    
+});
+
+

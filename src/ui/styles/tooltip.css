@@ -1,16 +1,16 @@
 .tooltip{
     position: relative;
     display: inline-block;
-    color: aqua;
-    border-bottom: 1px dot aqua;
+    color: rgb(255, 0, 0);
+    border-bottom: 1px dot rgb(255, 0, 0);
     cursor: help;
 }
 
 .tip{
     visibility: hidden;
     width: 150px;
-    background-color: aqua;
-    color: brown;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     border-radius: 10px;
     padding: 5px 0;
@@ -35,5 +35,5 @@
     border-width: 4px;
     border-style: solid;
     border-color: transparent;
-    border-top-color: aqua;
+    border-top-color: rgb(255, 0, 0);
 }
